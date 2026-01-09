@@ -1,0 +1,52 @@
+[
+  {
+    "id": "demo-iphone-15",
+    "title": "iPhone 15 Pro 256 ГБ",
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "condition": "new",
+    "description": "Новый iPhone 15 Pro с официальной гарантией. Полный комплект, без активации.",
+    "price": 139990,
+    "oldPrice": 149990,
+    "stock": 4,
+    "active": true,
+    "images": ["https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80"],
+    "characteristics": [
+      { "label": "Память", "value": "256 ГБ" },
+      { "label": "Цвет", "value": "Титан" },
+      { "label": "Гарантия", "value": "12 месяцев" }
+    ],
+    "variants": [],
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-01T10:00:00.000Z"
+  },
+  {
+    "id": "demo-galaxy-s23",
+    "title": "Samsung Galaxy S23",
+    "category": "Смартфоны",
+    "brand": "Samsung",
+    "condition": "used",
+    "description": "Б/у в отличном состоянии, без сколов. Проверен, заряд держит отлично.",
+    "price": 54990,
+    "oldPrice": null,
+    "stock": 2,
+    "active": true,
+    "images": ["https://images.unsplash.com/photo-1510557880182-3d4d3c4b3f2b?auto=format&fit=crop&w=800&q=80"],
+    "characteristics": [
+      { "label": "Память", "value": "128 ГБ" },
+      { "label": "Состояние", "value": "Отличное" }
+    ],
+    "variants": [
+      {
+        "id": "color",
+        "name": "Цвет",
+        "options": [
+          { "id": "black", "title": "Чёрный", "price": 54990, "oldPrice": null, "stock": 1 },
+          { "id": "white", "title": "Белый", "price": 55990, "oldPrice": null, "stock": 1 }
+        ]
+      }
+    ],
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-01T10:00:00.000Z"
+  }
+]
